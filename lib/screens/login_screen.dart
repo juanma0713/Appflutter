@@ -42,12 +42,12 @@ class LoginScreen extends StatelessWidget {
 
             Column(
               children: [
-                const SizedBox(height: 300),
+                const SizedBox(height: 250),
                 Container(
                   padding: const EdgeInsets.all(20),
                   margin: const EdgeInsets.symmetric(horizontal: 30), 
                   width: double.infinity,
-                  height: 100,
+                  height: 300,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(25),
@@ -68,6 +68,10 @@ class LoginScreen extends StatelessWidget {
                       ],
                     ),
                 ),
+
+                SizedBox(height: 50),
+                Text('Crear Cuenta',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
               ],
             
               ),
